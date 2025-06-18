@@ -1,0 +1,12 @@
+{
+  "url": "https://elephant-room-site.onrender.com",
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/var/lib/ghost/content/data/ghost.db"
+    }
+  },
+  "logging": {
+    "transports": ["file", "stdout"]
+  }
+}
