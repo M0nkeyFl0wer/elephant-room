@@ -1,0 +1,3 @@
+# Redirect www to non-www
+https://www.elephantroom.ca/* https://elephantroom.ca/:splat 301!
+http://www.elephantroom.ca/* https://elephantroom.ca/:splat 301!
