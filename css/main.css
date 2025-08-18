@@ -878,6 +878,25 @@ h3 {
         font-size: 1.25rem;
     }
     
+    .sub-hero {
+        padding: 2rem 1rem;
+    }
+    
+    .sub-hero .hero-blurb {
+        max-width: 100%;
+        padding: 0 0.5rem;
+    }
+    
+    .results {
+        padding: 0.75rem;
+    }
+    
+    .results .grid, 
+    .results div[style*="display: grid"] {
+        grid-template-columns: 1fr !important;
+        gap: 0.75rem;
+    }
+    
     .mission-wrapper {
         font-size: 1.2rem;
         padding: 2rem;
