@@ -69,8 +69,6 @@ body {
 .hero {
     position: relative;
     width: 100vw;
-    max-height: 520px;
-    overflow: hidden;
     margin-top: 80px; /* Account for fixed nav */
 }
 
@@ -840,13 +838,6 @@ h3 {
     
     .hero {
         margin-top: 120px; /* Account for taller mobile nav */
-        max-height: none; /* Remove height constraint on mobile */
-    }
-    
-    .hero-image {
-        width: 100%;
-        height: auto;
-        display: block;
     }
     
     .sub-hero {
