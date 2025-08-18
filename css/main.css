@@ -69,13 +69,17 @@ body {
 .hero {
     position: relative;
     width: 100vw;
+    height: 70vh;
+    min-height: 400px;
+    background-image: url('../content/images/2025/06/elephants-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 80px; /* Account for fixed nav */
 }
 
 .hero-image {
-    width: 100%;
-    height: auto;
-    display: block;
+    display: none; /* Hide the img tag since we're using background */
 }
 
 .hero-text {
@@ -840,6 +844,8 @@ h3 {
     
     .hero {
         margin-top: 120px; /* Account for taller mobile nav */
+        height: 60vh;
+        min-height: 350px;
     }
     
     .sub-hero {
